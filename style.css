@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#fff;;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 13px 15px 33px;
+    background-color: #000;
+    color: #fff;
+}
