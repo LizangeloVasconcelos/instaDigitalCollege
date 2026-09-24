@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color:#fff;;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 
 .topbar {
@@ -15,4 +17,43 @@ body {
     padding: 17px 13px 15px 33px;
     background-color: #000;
     color: #fff;
+}
+
+.userinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.userinfo h1 {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.userinfo .actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.userinfo button {
+    background: none; 
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userinfo button:active {
+    opacity: 0.6;
 }
