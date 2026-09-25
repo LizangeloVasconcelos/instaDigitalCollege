@@ -31,6 +31,19 @@ body {
 }
 
 #links {
-
+    a {
+    text-decoration: none;
+    color: var(--preto);
+    text-transform: uppercase;
+    margin-left: 25px;
+    }
 }
+
+@media (min-width: 1000px; {
+    #navbar {
+        background-color: black;
+    }
+}
+
+)
 
